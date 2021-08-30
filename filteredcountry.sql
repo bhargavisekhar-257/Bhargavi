@@ -1,0 +1,3 @@
+USE test;
+SELECT * FROM test.sales
+WHERE COUNTRY LIKE 'USA%';
